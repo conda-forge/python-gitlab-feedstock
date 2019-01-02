@@ -19,9 +19,8 @@ tool (gitlab).
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/python-gitlab-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/python-gitlab-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/python-gitlab-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/python-gitlab-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/python-gitlab-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/python-gitlab-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/python-gitlab-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/python-gitlab-feedstock)
 
 Current release info
 ====================
