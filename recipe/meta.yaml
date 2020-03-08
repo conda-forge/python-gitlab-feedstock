@@ -1,5 +1,5 @@
 {% set name = "python-gitlab" %}
-{% set version = "2.0.1" %}
+{% set version = "2.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,14 +7,14 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: e2d5da00aac651fe3a83963b1d5f04cdf98d993d4306a89e0835d4bc20afb0b5
+  sha256: fb30804fcf1a348f992c34c2e009b3aae20a1eb29aac626ecf7d43944e0746c4
 
 build:
   noarch: python
   number: 0
   # Note: --no-deps is currently required due to https://github.com/conda/conda-build/issues/3254
   # Once resolved, it should be removed.
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
   entry_points:
     - gitlab = gitlab.cli:main
 
@@ -36,7 +36,7 @@ about:
   license: LGPL-3.0
   license_family: LGPL
   license_file: COPYING
-  summary: 'Python wrapper for the GitLab API'
+  summary: Python wrapper for the GitLab API
   description: |
     python-gitlab is a Python package providing access to the GitLab
     server API. It supports the v4 API of GitLab, and provides a CLI
