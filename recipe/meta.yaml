@@ -33,7 +33,7 @@ test:
 
 about:
   home: https://github.com/python-gitlab/python-gitlab
-  license: LGPL-3.0
+  license: LGPL-3.0-only
   license_family: LGPL
   license_file: COPYING
   summary: Python wrapper for the GitLab API
