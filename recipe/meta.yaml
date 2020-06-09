@@ -1,5 +1,5 @@
 {% set name = "python-gitlab" %}
-{% set version = "2.3.0" %}
+{% set version = "2.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 9cbfe604e306d44cdabca39bd507ce5a69ca68539b0dd4677e2bbd8f145d3a6e
+  sha256: c2674ad0910e4fa4a68851fa571898b0417edf37049a064f8a1609928c70f303
 
 build:
   noarch: python
