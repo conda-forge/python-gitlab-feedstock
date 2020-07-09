@@ -5,7 +5,7 @@ Home: https://github.com/python-gitlab/python-gitlab
 
 Package license: LGPL-3.0-only
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Python wrapper for the GitLab API
 
