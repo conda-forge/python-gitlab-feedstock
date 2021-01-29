@@ -5,9 +5,13 @@ Home: https://github.com/python-gitlab/python-gitlab
 
 Package license: LGPL-3.0-only
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python-gitlab-feedstock/blob/master/LICENSE.txt)
 
 Summary: Python wrapper for the GitLab API
+
+Development: https://github.com/python-gitlab/python-gitlab
+
+Documentation: https://python-gitlab.readthedocs.io/
 
 python-gitlab is a Python package providing access to the GitLab
 server API. It supports the v4 API of GitLab, and provides a CLI
