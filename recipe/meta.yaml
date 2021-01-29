@@ -24,8 +24,8 @@ requirements:
     - pip
   run:
     - python >=3.6
-    - requests
-    - six
+    - requests >=2.22.0
+    - requests-toolbelt >=0.9.1
 
 test:
   imports:
