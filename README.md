@@ -1,11 +1,11 @@
-About python-gitlab
-===================
+About python-gitlab-feedstock
+=============================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python-gitlab-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/python-gitlab/python-gitlab
 
 Package license: LGPL-3.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/python-gitlab-feedstock/blob/main/LICENSE.txt)
 
 Summary: Python wrapper for the GitLab API
 
