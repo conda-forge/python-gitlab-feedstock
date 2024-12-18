@@ -1,5 +1,5 @@
 {% set name = "python-gitlab" %}
-{% set version = "5.1.0" %}
+{% set version = "5.2.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
-  sha256: d5a10dae8328f32fb9214bd3f9dc199b4930cd496f81c9be42a0f8ff338aeb35
+  sha256: 1fb99d9de78aa93fdc97a106db44f0870cba225ea2064426302db02d14027967
 
 build:
   noarch: python
-  number: 1
+  number: 0
   # Note: --no-deps is currently required due to https://github.com/conda/conda-build/issues/3254
   # Once resolved, it should be removed.
   script: {{ PYTHON }} -m pip install . --no-deps -vv
